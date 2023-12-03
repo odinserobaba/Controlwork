@@ -5,6 +5,14 @@ foreach (string item in inputArray)
 {
     Console.WriteLine(item);
 }
+Console.WriteLine("Результат:");
+
+string[] resultArray = FilterStrings(inputArray);
+
+foreach (string item in resultArray)
+{
+    Console.WriteLine(item);
+}
 
 
 
