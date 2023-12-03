@@ -1,5 +1,13 @@
 ﻿Console.WriteLine("Введите элементы массива через пробел:");
 string[] inputArray = Console.ReadLine().Split(' ');
+Console.WriteLine("Введенный массив:");
+foreach (string item in inputArray)
+{
+    Console.WriteLine(item);
+}
+
+
+
 
 string[] FilterStrings(string[] inputArray)
 {
